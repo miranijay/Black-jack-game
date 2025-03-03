@@ -53,10 +53,6 @@ function newCard() {
     }
 }
 
-function gameOver() {
-    
-}
-
 function getRandomCard() {
     let randomNum =  Math.floor(Math.random() * 13) + 1;
     if( randomNum > 10 ){
